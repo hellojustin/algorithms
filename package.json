@@ -4,7 +4,8 @@
   "description": "Some very standard algorithm implementations.",
   "main": "main.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha -w"
+    "test": "node_modules/.bin/mocha",
+    "watch": "node_modules/.bin/mocha -w"
   },
   "author": "Justin Molineaux <justin.molineaux@gmail.com>",
   "license": "ISC",
