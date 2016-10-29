@@ -1,0 +1,15 @@
+{
+  "name": "algorithms",
+  "version": "0.1.0",
+  "description": "Some very standard algorithm implementations.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "author": "Justin Molineaux <justin.molineaux@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
