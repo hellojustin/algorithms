@@ -7,13 +7,13 @@ var insertionSort = function( a ) {
     }
   }
   return a;
-}
+};
 
 var swap = function( a, i, j ) {
   var temp = a[i];
   a[i] = a[j];
   a[j] = temp;
   return a;
-}
+};
 
 module.exports = insertionSort;

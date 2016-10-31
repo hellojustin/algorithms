@@ -13,7 +13,7 @@ describe('#quickSort', function() {
     var unsorted = ['banana', 'apple', 'tomato', 'carrot'],
         sorted   = ['apple', 'banana', 'carrot', 'tomato'];
     quickSort(unsorted).should.eql(sorted);
-  })
+  });
 
   it('should sort uniform-value arrays', function() {
     var unsorted = [1, 1, 1, 1, 1, 1, 1, 1, 1],
